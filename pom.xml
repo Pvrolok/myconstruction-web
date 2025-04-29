@@ -70,4 +70,11 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+    <repository>
+        <id>artifactory-local</id>
+        <name>MyConstruction Artifactory Repo</name>
+        <url>http://localhost:8081/artifactory/myconstruction-artifacts</url>
+    </repository>
+</distributionManagement>
 </project>
